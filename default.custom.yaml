@@ -1,0 +1,21 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.9.30
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Thu Sep 22 14:55:59 2016"
+  rime_version: 1.1.2
+patch:
+  schema_list:
+    - {schema: luna_pinyin_simp}
+  switcher:
+    abbreviate_options: true
+    caption: "〔切换〕"          #把默认的“方案選單”修改为了“切换”。
+    fold_options: true
+    hotkeys:
+      - "Control+grave"       #默认方案
+    option_list_separator: "／"   #以下都为默认custom.yaml文件的默认配置，copy过来就可以。
+    save_options:
+      - full_shape
+      - ascii_punct
+      - simplification
+      - extended_charset
