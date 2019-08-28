@@ -7,6 +7,8 @@ customization:
 patch:
   schema_list:
     - {schema: luna_pinyin_simp}
+  menu:
+      page_size: 10
   switcher:
     abbreviate_options: true
     caption: "〔切换〕"          #把默认的“方案選單”修改为了“切换”。
