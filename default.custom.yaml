@@ -64,12 +64,12 @@ patch:
       - {accept: equal, send: Page_Down, when: has_menu}
       - {accept: comma, send: Page_Up, when: paging}
       - {accept: period, send: Page_Down, when: has_menu}
-      - {accept: "Control+Shift+1", select: .next, when: always}
-      - {accept: "Control+Shift+2", toggle: ascii_mode, when: always}
-      - {accept: "Control+Shift+3", toggle: full_shape, when: always}
-      - {accept: "Control+Shift+4", toggle: simplification, when: always}
-      - {accept: "Control+Shift+5", toggle: extended_charset, when: always}
-      - {accept: "Control+Shift+exclam", select: .next, when: always}
+      # - {accept: "Control+Shift+1", select: .next, when: always}
+      # - {accept: "Control+Shift+2", toggle: ascii_mode, when: always}
+      # - {accept: "Control+Shift+3", toggle: full_shape, when: always}
+      # - {accept: "Control+Shift+4", toggle: simplification, when: always}
+      # - {accept: "Control+Shift+5", toggle: extended_charset, when: always}
+      # - {accept: "Control+Shift+exclam", select: .next, when: always}
       # - {accept: "Control+Shift+at", toggle: ascii_mode, when: always}
       # - {accept: "Control+Shift+numbersign", toggle: full_shape, when: always}
       - {accept: "Control+Shift+dollar", toggle: simplification, when: always}
