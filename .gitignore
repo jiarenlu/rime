@@ -4,6 +4,7 @@ default.yaml
 installation.yaml
 luna_pinyin.userdb.kct
 luna_pinyin.userdb/
+pinyin_simp.userdb/
 luna_pinyin_simp.schema.yaml
 symbols.yaml
 user.yaml

@@ -32,5 +32,17 @@ patch:
       reset: 1
       states: [ 。，, ．， ]
 
+    - options: [utf8, gbk, gb2312]    # (※2) 字符集选单
+      reset: 1                        # 默认 GBK
+      states:                         # 可以通过切功能键，切至 UTF8 等超大字符集
+        - UTF-8
+        - GBK
+        - GB2312
+
+  engine/filters:
+      - simplifier
+      - uniquifier
+      - charset_filter@gbk            # (※3) 默认 GBK
+  translator/dictionary: pinyin_simp  # (※4) 并继续使用 pinyin_simp 字典
   simplifier:
     option_name: zh_simp
