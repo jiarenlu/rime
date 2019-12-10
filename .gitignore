@@ -5,6 +5,8 @@ installation.yaml
 luna_pinyin.userdb.kct
 luna_pinyin.userdb/
 pinyin_simp.userdb/
+cangjie5.userdb/
+wubi86.userdb/
 luna_pinyin_simp.schema.yaml
 symbols.yaml
 user.yaml
