@@ -7,17 +7,9 @@ luna_pinyin.userdb/
 pinyin_simp.userdb/
 cangjie5.userdb/
 wubi86.userdb/
-luna_pinyin_simp.schema.yaml
 symbols.yaml
 user.yaml
 weasel.yaml
 sync
-cangjie5.schema.yaml
 kaomoji.userdb/
-luna_pinyin.schema.yaml
 luna_pinyin.userdb.old/
-luna_pinyin_fluency.schema.yaml
-luna_pinyin_tw.schema.yaml
-luna_quanpin.schema.yaml
-stroke.schema.yaml
-*.schema.yaml
