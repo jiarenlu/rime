@@ -13,3 +13,5 @@ weasel.yaml
 sync
 kaomoji.userdb/
 luna_pinyin.userdb.old/
+build/
+trash/
