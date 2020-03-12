@@ -12,6 +12,7 @@
 #
 
 patch:
+  'punctuator/import_preset': alternative
   'speller/algebra':
     - erase/^xx$/                      # 第一行保留
 

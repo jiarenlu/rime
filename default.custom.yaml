@@ -47,6 +47,10 @@ patch:
     Caps_Lock: commit_code
     Shift_L: commit_code
     Shift_R: commit_code
+
+  'punctuator/import_preset': alternative
+  'key_binder/import_preset': alternative
+
   key_binder:
     bindings:
       - {accept: "Control+p", send: Up, when: composing}

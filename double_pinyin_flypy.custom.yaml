@@ -19,7 +19,6 @@ patch:
     enable_completion: false
     prefix: "`"
     tips: 〔颜文字〕
-
   switches:
     - name: ascii_mode
       reset: 1
@@ -47,3 +46,5 @@ patch:
   translator/dictionary: pinyin_simp  # (※4) 并继续使用 pinyin_simp 字典
   simplifier:
     option_name: zh_simp
+  'punctuator/import_preset': alternative
+  'key_binder/import_preset': alternative
