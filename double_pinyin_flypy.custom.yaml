@@ -32,6 +32,5 @@ patch:
       reset: 1
       states: [ 。，, ．， ]
 
-  translator/dictionary: pinyin_simp  # (※4) 并继续使用 pinyin_simp 字典
   simplifier:
     option_name: zh_simp

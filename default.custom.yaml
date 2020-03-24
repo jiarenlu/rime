@@ -51,6 +51,8 @@ patch:
   'punctuator/import_preset': alternative
   'key_binder/import_preset': alternative
 
+  translator/dictionary: pinyin_simp  # (※4) 并继续使用 pinyin_simp 字典
+
   key_binder:
     bindings:
       - {accept: "Control+p", send: Up, when: composing}
