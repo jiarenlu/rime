@@ -14,6 +14,9 @@ patch:
     - kaomoji
   abc_segmentor/extra_tags:
     - reverse_lookup
+  translator:
+    dictionary: pinyin_simp.extended
+
   reverse_lookup:
     dictionary: kaomoji
     enable_completion: false
